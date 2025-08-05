@@ -11,5 +11,5 @@ This portfolio contains some of the schoolworks I have completed along the years
 
 ### 2025 -WebOhjelmointi1
 Contains two assignments:
-**"PF_T6_puhluettelo"** - Task 6: Published names and numbers for a phonebook using a teacher-provided server.
-**"PF_Portfolio** - Final project for the course.
+- **"PF_T6_puhluettelo"** - Task 6: Published names and numbers for a phonebook using a teacher-provided server.
+- **"PF_Portfolio** - Final project for the course.

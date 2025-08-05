@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Pia Fjäder</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> <!-- Oma tyylitiedosto -->
+</head>
+<body class="bg-dark text-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Web-ohjelmointi 1 portfolio ~</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Etusivu</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Tehtävät</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blogi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="feedback.html">Palaute</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-secondary text-white text-center py-5">
+        Web-ohjelmointi 1 DT10033-3003 - Tehtävät
+    </header>
+
+    <!-- Blogi -->
+    <div class="container mt-5">
+        <h2>Kurssin päiväkirja: HackMD blogi</h2>
+        <p>Kurssin eteneminen on ollut  tarkoituksena kirjoittaa blogiin ylös kurssin etenemistä ja omaa oppimista pohdintojen kera.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tehtava0Modal">
+            Näytä tehtävän screenshotit
+        </button>
+    
+        <!-- Modaali -->
+        <div class="modal fade" id="tehtava0Modal" tabindex="-1" aria-labelledby="tehtava0ModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="tehtava0ModalLabel">Kurssin päiväkirja: HackMD blogi</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Sulje"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img src="photos/task0.jpg" class="img-fluid mb-2" alt="HackMD blogi">
+                        
+                        <p>Blogi on ollut äärimmäisen työllistävä täyttää, koska oppiminen vie suuren osan jaksamisesta. Opittujen asioiden kunnollinen reflektonti jälkikäteen on ollut työlästä, raskasta ja turhauttavaa...</p>
+                        <p>Blogin löydät joko <a class="link" href="https://hackmd.io/@PiaF/rJisJBau6" target="_blank" rel="noopener noreferrer">täältä</a> tai navigointipalkin linkistä.</p>
+
+                        <img src="photos/task0_1.jpg" class="img-fluid mb-2" alt="HackMD blogin asetukset">
+                        
+                        <p class="mt-2">Asetusten pitäisi olla niin, että luenta on sallittu kaikilta linkin haltijoilta.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sulje</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <ul class="mt-3">
+            <li>Mitä tein?
+                <ul>
+                    <li>Blogin, jossa käsittelen oppimaani opin edetessä.</li>
+                </ul>
+            </li> 
+            <li>Miten tein?
+                <ul>
+                    <li>Käyttäen kurssilla toivottua HackMD-sivustoa.</li>
+                </ul>
+            </li>
+            <li>Miksi teit?
+                <ul>
+                    <li>Kuului kurssiin.</li>
+                </ul>
+            </li>
+            <li>Mitä opin?
+                <ul>
+                    <li>Blogin kirjoittaminen auttaa keskittämään oppia tiettyyn aihealueeseen.</li>
+                </ul>
+            </li>
+            <li>Mitä jäi vielä oppimatta?
+                <ul>
+                    <li>Muistiinpanojen kirjoittaminen on minulle vaikeaa ja vaatii lukematonta määrää luetun toistamista että luetusta tekstisä saa leipäosuuden kiinni.</li>
+                </ul>
+            </li>
+            <li>Miten mielestäni onnistuin tässä tehtävässä ja mitä tekisin nyt toisin (jos mitään)?
+                <ul>
+                    <li>Lähinnä haluaisin oppia kirjoittamaan muistiinpanoja ja ajatuksia rakentavammin. Olen enemmän tarinankertoja kuin kirjanpitäjä.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- CSS / HTML tehtävä -->
+    <div class="container mt-5">
+        <h2>Tehtävä 1: HTML / CSS harjoittelu</h2>
+        <p>Tehtävän ideana oli tutustua yleiseen web-ohjelmoinnin tyyliin sekä sivuston tyylittelyyn yksinkertaisella CSS ja HTML -harjoitteella. Ikäväkyllä kurssilla vaadittu Prettier-lisäosa VSCodessa on ollut turhauttava, koska HTML5 maailmassa suuri osa end-tageista on poistunut. W3Schools Validator on tämän vuoksi tarjonnut suuria määriä "INFO" herjauksia, joka on aiheuttanut turhaa siivoamistyötä jotta koodista saadaan siistiä.</p>
+        <p>Yleisesti HTML/CSS harjoitukset ovat itselleni mielekkäitä, koska olen harrastellut asian parissa valtaosan elämästäni, ylläpitäen yhä yksinkertaisia harrastesivuja osoitteessa <a class="link" href="https://www.darkies.fi" target="_blank" rel="noopener noreferrer">https://www.darkies.fi</a>.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tehtava1Modal">
+            Näytä tehtävän screenshotit
+        </button>
+    
+        <!-- Modaali -->
+        <div class="modal fade" id="tehtava1Modal" tabindex="-1" aria-labelledby="tehtava1ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="tehtava1ModalLabel">Tehtävä 1: HTML / CSS harjoittelu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Sulje"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img src="photos/task1_1.jpg" class="img-fluid mb-2" alt="Tehtävä 1, kuva 1">
+                        <img src="photos/task1_2.jpg" class="img-fluid mb-2" alt="Tehtävä 1, kuva 2">
+                        <img src="photos/task1_3.jpg" class="img-fluid mb-2" alt="Tehtävä 1, kuva 3">
+                        <p class="mt-2">Värimaailma sekä sisältö on itse luotua, opettajan antamaa pohjakoodia en liiemmin muuttanut.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sulje</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <ul class="mt-3">
+            <li>Mitä tein?
+                <ul>
+                    <li>Pienen esittelysivun käyttäen HTML:ää ja CSS:ää. Pohjakoodi ja rakenne on sama kuin opettajan esimerkkikoodissa, mutta tein pieniä muutoksia sivuun saadakseni siitä enemmän itseni näköisen.</li>
+                </ul>
+            </li> 
+            <li>Miten tein?
+                <ul>
+                    <li>Yksinkertaisia muutoksia molempiin tiedostoihin, harjoitus oli itselleni helppo aiemman harrastelun pohjalta.
+                        <ul>
+                            <li>Käytetyt kielet: HTML, CSS</li>
+                            <li>Käytetyt ohjelmat: VS Code, Google Chrome</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>Miksi teit?
+                <ul>
+                    <li>Tehtävänannon mukaisesti.</li>
+                </ul>
+            </li>
+            <li>Mitä opin?
+                <ul>
+                    <li>Tässä harjoituksessa uutta oppia tuli lähinnä usean DIV-elementin käytöstä liki toisiaan. En myöskään ollut käyttänyt onnistuneesti footereita aiemmin ja tämän harjoituksen jälkeen lisäsin ne myös harrastesivulleni.</li>
+                </ul>
+            </li>
+            <li>Mitä jäi vielä oppimatta?
+                <ul>
+                    <li>Aivan varmasti lukuisia asioita - HTML ja CSS maailma on suunnattoman suuri.</li>
+                </ul>
+            </li>
+            <li>Miten mielestäni onnistuin tässä tehtävässä ja mitä tekisin nyt toisin (jos mitään)?
+                <ul>
+                    <li>Kaikenkaikkeaan olen tyytyväinen sivustoon. En kokenut tarvetta suuremmalle hifistelymäärälle.</li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+
+
+    <!-- JavaScript 1 -->
+    <div class="container mt-5">
+        <h2>Tehtävä 2: JavaScript 1</h2>
+        <p>Tehtävän ideana oli luoda JavaScriptillä lyhyt koodi, joka tarkistaa onko syötetty sana palindromi vai ei. Harjoitus tehtiin konsolipohjaisena, kirjoittaen ja suorittaen Visual Studio Codessa.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tehtava2Modal">
+            Näytä tehtävän screenshotit
+        </button>
+    
+        <!-- Modaali -->
+        <div class="modal fade" id="tehtava2Modal" tabindex="-1" aria-labelledby="tehtava2ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="tehtava2ModalLabel">Tehtävä 2: JavaScript 1 harjoitus</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Sulje"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img src="photos/task2_1.jpg" class="img-fluid mb-2" alt="Tehtävä 2, kuva 1">
+                        <p class="mt-2">Yksinkertainen harjoitus, joka kävi läpi sanan kirjain kirjaimelta, tarkistaen onko sana sama molempiin suuntiin.</p>
+                        
+                        <img src="photos/task2_2.jpg" class="img-fluid mb-2" alt="Tehtävä 2, kuva 2">
+                        <p class="mt-2">En saanut koodia toimimaan välilyönnin kanssa. En tiedä miten olisi pitänyt toimia jotta toiminta olisi luonnistunut.</p>
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sulje</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <ul class="mt-3">
+            <li>Mitä tein?
+                <ul>
+                    <li>Simppeli palindromitarkastaja, joka palauttaa "true" arvolla konsoliin lausekkeen "Sana on palindromi" sekä "false" arvolla "Sana ei ole palindromi" (ks. kuva 1).</li>
+                </ul>
+            </li> 
+            <li>Miten tein?
+                <ul>
+                    <li>Ohjelma on suoritettu JavaScriptillä VSCodessa. Koodissa alustetaan yksinkertaiset muuttujat ja luodaan simppeli ehtolause syötteen tarkistajalle. Erillinen funktio tarkistaa kirjain kirjaimelta jos syötetty sana tosissaan on palindromi (ks. kuva 2).
+                        <ul>
+                            <li>Käytetyt kielet: JavaScript</li>
+                            <li>Käytetyt ohjelmat: VS Code, powershell</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>Miksi teit?
+                <ul>
+                    <li>Pyrin toimimaan tehtävänannon mukaisesti.</li>
+                </ul>
+            </li>
+            <li>Mitä opin?
+                <ul>
+                    <li>Opin JavaScript koodirakennetta ja koodin alustamista. Koodirakenne on hyvin samanlainen kuin C#:ssa, mutta eriää kuitenkin kriittisissä paikoissa.</li>
+                </ul>
+            </li>
+            <li>Mitä jäi vielä oppimatta?
+                <ul>
+                    <li>Varmasti lukuaisia asioita. Olen yhä hyvin tuore koodien kanssa, eikä koodin luominen tyhjästä ole itselleni helppoa millään tavalla.</li>
+                </ul>
+            </li>
+            <li>Miten mielestäni onnistuin tässä tehtävässä ja mitä tekisin nyt toisin (jos mitään)?
+                <ul>
+                    <li>Olisin halunnut saada onnistumaan palindromitarkastuksen myös välilyönnillisillä sanoilla, kuten <i>innostunut sonni</i>, mutta olen tyytyväinen tulokseen.</li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+
+
+    <!-- JavaScript 2 -->
+    <div class="container mt-5">
+        <h2>Tehtävä 3: JavaScript 2</h2>
+        <p>Tehtävänä oli luoda pieni konsolipohjainen puhelinluettelo, jossa voit etsiä henkilön numeroa sekä lisätä uuden henkilön parin valmiiksi alustetun henkilön seasta. Tehtävän ideana oli palauttaa haettu numero funktiolla.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tehtava3Modal">
+            Näytä tehtävän screenshotit
+        </button>
+    
+        <!-- Modaali -->
+        <div class="modal fade" id="tehtava3Modal" tabindex="-1" aria-labelledby="tehtava3ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="tehtava3ModalLabel">Tehtävä 3: JavaScript harjoitus 2</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Sulje"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img src="photos/task3_1.jpg" class="img-fluid mb-2" alt="Tehtävä 3, kuva 1">
+                        <p class="mt=2">En saanut tässä tehtävässä scandeja toimimaan, vaikka ne toimivatkin edellisessä JavaScript-harjoituksessa ongelmitta.</p>
+                        <img src="photos/task3_2.jpg" class="img-fluid mb-2" alt="Tehtävä 3, kuva 2">
+                        <p class="mt-2">Alkuperäinen palautukseni oli lievästi väärä, koska funktioni palautti sekä numeron että tulosteen, opettajan huomautuksesta korjasin koodin tehtävänannon mukaiseksi.</p>
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sulje</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <ul class="mt-3">
+            <li>Mitä tein?
+                <ul>
+                    <li>Yksinkertainen JavaScript koodi, joka pyörii Switch-rakenteessa käyttäjän haluaman toiminnon mukaisesti. Ohjelma tarjoaa käyttäjälleen mahdollisuuden syöttää uuden henkilön, hakea numeroa, tulostaa koko puhelinluettelon tai lopettaa ohjelman. Ohjelma pyörii niin kauan kunnes käyttäjä valitsee 0 - lopeta.</li>
+                </ul>
+            </li> 
+            <li>Miten tein?
+                <ul>
+                    <li>Tein switch-rakenteen, joka ehdottaa käyttäjälle toimintoa, jonka mukaan koodi hakee joko esisyötettyjä henkilöitä, tarjoaa mahdollisuutta lisätä listaan uuden henkiön (etunimi, sukunimi sekä puhelin), tulostaa koko luettelon tai poistua ohjelmasta.
+                        <ul>
+                            <li>Käytetyt kielet: JavaScript</li>
+                            <li>Käytetyt ohjelmat: VS Code, powershell</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>Miksi teit?
+                <ul>
+                    <li>Loop-rakenteissa Switch on alusta alkaen ollut itselleni mieluisin. Muutoin pyrin vain toteuttamaan tehtävänannon mukaisesti tehtävän.</li>
+                </ul>
+            </li>
+            <li>Mitä opin?
+                <ul>
+                    <li>JavaScript funktioita. Funktioiden yksinkertaistaminen sekä toiminnallinen siivoaminen on ollut itselleni haastavaa.</li>
+                </ul>
+            </li>
+            <li>Mitä jäi vielä oppimatta?
+                <ul>
+                    <li>On vielä paljon opittavaa eritoten tehokkaasta koodista. Refaktorointitapani ovat kovasti kehitystä vailla.</li>
+                </ul>
+            </li>
+            <li>Miten mielestäni onnistuin tässä tehtävässä ja mitä tekisin nyt toisin (jos mitään)?
+                <ul>
+                    <li>Yleisesti olen kovin tyytyväinen tehtyyn työhön, siihen en tosin koskaan löytänyt vastausta miksi ääkköset eivät tulostu konsoliin oikein. (ks. kuva 1)</li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+
+
+
+    <!-- jQuery -->
+    <div class="container mt-5">
+        <h2>Tehtävä 4: jQuery</h2>
+        <p>Tehtävänä oli tehdä käyttöliittymä ennakkoon annettuun puhelinluetteloon, jossa oli vain taulukko henkilöistä. Tehtävään kuului myös ennalta annettu script, joka etsi puhelinluettelon henkilöt annetun netisivun kautta.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tehtava4Modal">
+            Näytä tehtävän screenshotit
+        </button>
+    
+        <!-- Modaali -->
+        <div class="modal fade" id="tehtava4Modal" tabindex="-1" aria-labelledby="tehtava4ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="tehtava4ModalLabel">Tehtävä 4: jQuery harjoitus</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Sulje"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img src="photos/task4_1.jpg" class="img-fluid mb-2" alt="Tehtävä 4, kuva 1">
+                        <img src="photos/task4_2.jpg" class="img-fluid mb-2" alt="Tehtävä 4, kuva 2">
+                        <img src="photos/task4_3.jpg" class="img-fluid mb-2" alt="Tehtävä 4, kuva 3">
+                        
+                        <p>Kursorin ollessa painikkeen päällä, painike muuttuu vihreäksi.</p>
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sulje</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <ul class="mt-3">
+            <li>Mitä tein?
+                <ul>
+                    <li>Tein yksinkertaisen, simppelin ja suhteellisen raikkaan värisen puhelinluettelon HTML:ää ja CSS:ää käyttäen. Koodin body-osuuteen on liitetty opettajan ennalta tarjoama script-pätkä muodostamaan lista scriptin sisällä asetetun linkin mukaisesti (ks. kuva 2). Tein myös hover-ominaisuuden painikkeen päälle, muuttaen sen vihreäksi.</li>
+                </ul>
+            </li> 
+            <li>Miten tein?
+                <ul>
+                    <li>Yksinkertaista HTML ja CSS muokkausta ja pienen trial &amp; error kokeilun jälkeen sain myös scriptin toimimaan oikealla tavalla.
+                        <ul>
+                            <li>Käytetyt kielet: JavaScript, HTML, CSS</li>
+                            <li>Käytetyt ohjelmat: VS Code, Google Chrome</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>Miksi teit?
+                <ul>
+                    <li>Tehtävänannon mukaisesti.</li>
+                </ul>
+            </li>
+            <li>Mitä opin?
+                <ul>
+                    <li>Opin perusperiaatteita jQueryyn liittyen. Opin myös että jQuery on siirtymässä syrjään eikä ole niin yleisesti käytössä enää.</li>
+                </ul>
+            </li>
+            <li>Mitä jäi vielä oppimatta?
+                <ul>
+                    <li>jQuery on konseptina vain pintaraapaistu, eli suurilta osin kokonaisuus jäi pimentoon. Ymmärrän periaatteen ja käyttötarkoituksen.</li>
+                </ul>
+            </li>
+            <li>Miten mielestäni onnistuin tässä tehtävässä ja mitä tekisin nyt toisin (jos mitään)?
+                <ul>
+                    <li>Olisin halunnut tehdä ominaisuuden, joka estää hakupainikkeen aktivoitumisen ellei nimi-kenttä ole täynnä.</li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+
+
+    <!-- HTTP -->
+    <div class="container mt-5">
+        <h2>Tehtävä 5: HTTP-metodi PUT</h2>
+        <p>HTTP-metodeihin kurssilla tutustuttiin pienimuotoisen puhelinluettelon muokkaamisella. Tehtävänannossa oli erillinen client ja server, ideana lisätä "muokkaa" painike ominaisuuksineen ennalta annettuun taulukkoon, josta muokattu puhelinnumero tallennettiin serverille käyttäen fetch-mekaniikkaa, käyttäen http-metodia PUT. </p>
+        <p>Ennen tehtävänantoa harjoittelin erinäisiä bootstrap-ominaisuuksia, koska vaikka tunnistin tyylilajin, en ollut koskaan aiemmin käyttänyt tätä. Tästä kirjoitin oman tekstinsä <a class="link" href="blog.html">blogiin</a> viikon 9 kohdalle. Tässä kyseisessä harjoitteessa pyrin jättämään bootstrapin vähemmälle, koska HTTP-metodien parissa työskentely oli itselleni raskasta ja työlästä.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tehtava5Modal">
+            Näytä tehtävän screenshotit
+        </button>
+    
+        <!-- Modaali -->
+        <div class="modal fade" id="tehtava5Modal" tabindex="-1" aria-labelledby="tehtava5ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="tehtava5ModalLabel">Tehtävä 5: HTTP-metodi PUT harjoitus</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Sulje"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img src="photos/task5_1.jpg" class="img-fluid mb-2" alt="Tehtävä 5, kuva 1">
+                        <p class="mt-2">Värikäs ja selkeä ilmiasu oli itselleni mielekkäämpi työskennellä kuin harmaa-valkoinen. Eri elementtien visuaalinen muuttaminen antaa erilaista perspektiiviä</p>
+                        <img src="photos/task5_2.jpg" class="img-fluid mb-2" alt="Tehtävä 5, kuva 2">
+                        <p class="mt-2">Kullakin painikkeella oli rooliin suunniteltu hover-väri, tuoden selkeyttä painikkeen toimintaan. Muokkaus-painike sekä muokkausten tallennuspainike keltainen, indikoiden näiden yhtenäisyyttä, punainen on geneerinen väri tuhoamiselle ja vihreä geneerinen väri uuden luonnille.</p>
+                        <img src="photos/task5_3.jpg" class="img-fluid mb-2" alt="Tehtävä 5, kuva 3">
+                        <p class="mt-3">Rivinmuokkauksen pohjakoodin sai nopeasti mallinnettua aiemmista riveistä.</p>
+                        <img src="photos/task5_4.jpg" class="img-fluid mb-2" alt="Tehtävä 5, kuva 4">
+                        
+                        <p class="mt-3"></p>
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sulje</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <ul class="mt-3">
+            <li>Mitä tein?
+                <ul>
+                    <li>Tein puhelinluettelolle käyttöliittymän, johon lisäsin "muokkaa"-painikkeen, hover-värit kaikille painikkeille auttamaan erottamaan painikkeet toimintoineen toisistaan; uuden yhteystiedon luomisen napin väri muuttui vihreäksi, muokkaukseen liittyvät painikkeet keltaiseksi ja poistoon liittyvät painikkeet punaiseksi. (ks. kuva 2)</li>
+                    <li>Tein myös toiminnallisuuden painikkeelle ennalta annetun script2.js-tiedoston pohjalta. (ks. kuvat 3 ja 4)</li>
+                </ul>
+            </li> 
+            <li>Miten tein?
+                <ul>
+                    <li>Tutustuin Bootstrappiin elementteineen, suoritin tarvittavia muutoksia niin .html -tiedostoon kuin .js -tiedostoon ja muokkasin ulkoasua mieluisaksi itselleni käyttäen CSS -tyylitiedostoa.
+                        <ul>
+                            <li>Käytetyt kielet: HTML, CSS, JavaScript, JSON</li>
+                            <li>Käytetyt ohjelmat: VS Code, Powershell, Notepad++</li>
+                        </ul>
+                    </li>
+                    <li>Tehtävä vaati myös terminaalissa pienen tietokannan käynnistämistä.</li>
+                    <li>Koin suuria ongelmia koodipuolen kanssa, jonka vuoksi tapeltuani kokonaisen päivän scriptien kanssa päätin muokata visuaalista puolta itselleni mielekkäämmäksi. Ulkoasun erinäisten elementtien kanssa toimiessa tulee katsottua koodia eri tavalla, mahdollistaen paremman ymmärryksen. Tämä on auttanut itseäni lukuisat kerrat.</li>
+                </ul>
+            </li>
+            <li>Miksi teit?
+                <ul>
+                    <li>Yksinkertaisuudessaan koska tehtävänanto niin vaati. Tein visuaalista puolta todennäköisesti tarpeettoman paljon, koska tämä on tapa joka auttaa minua tekemään asioita luontevammin.</li>
+                </ul>
+            </li>
+            <li>Mitä opin?
+                <ul>
+                    <li>Oppia tuli niin JavaScriptiä, Bootstrappiä kuin HTTP-metodeista. Olen toiminut useita kertoja bootstrap-pohjaisten sivujen kanssa, mutta en halunnut luoda semmoista itse. HTTP-metodit ovat itselleni teorian asteella tuttuja, mutta käytännön harjoitukset tuottavat yhä haasteita. En ole täysin varma miksi tai miten sain koodin (kuva 4) toimimaan, mutta siinä kohtaa kun toiminta oli tapahtunut, lopetin koodin käsittelyn.</li>
+                </ul>
+            </li>
+            <li>Mitä jäi vielä oppimatta?
+                <ul>
+                    <li>Uskomaton määrä asioita koko tehtävän parissa. Kaikki tehtävän osa-alueet ovat niin laajoja käsitteitä, että oppi ei varmasti koskaan ole oikeasti valmista. W3Schoolsin sivuillekin jäi vielä lukemattomia välilehtiä ja otsikoita käsittelemättä, sekä lukuisia harjoituksia tekemättä. Myös serveripuoli jäi kovin vieraaksi.</li>
+                </ul>
+            </li>
+            <li>Miten mielestäni onnistuin tässä tehtävässä ja mitä tekisin nyt toisin (jos mitään)?
+                <ul>
+                    <li>Jos olisin ehtinyt ja jaksanut, olisin halunnut tehdä virheenkäsittelyn sivustolle, joka estää tyhjän kentän muokkauksen tai puhelinnumeron poistamisen muokkaamisen yhteydessä. Sivusto on kovin jatkokehitettävissä jaksamisen siihen antaessa myöten.</li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+
+
+    <!-- Portfolio -->
+    <div class="container mt-5">
+        <h2>Tehtävä 6: Portfolio</h2>
+        <p>Kurssiportfolion rakentaminen niputtaa ja viimeistelee ensimmäisen web-ohjelmoinnin kurssin tämän kyseisen sivun muodossa. Tehtävänantona oli käyttää sivuston luontiin bootstrap-elementtejä ja tyylittelyä.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tehtava6Modal">
+            Näytä tehtävän screenshotit
+        </button>
+    
+        <!-- Modaali -->
+        <div class="modal fade" id="tehtava6Modal" tabindex="-1" aria-labelledby="tehtava6ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="tehtava6ModalLabel">Tehtävä 6: Portfolion rakentaminen</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Sulje"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img src="photos/task6_1.jpg" class="img-fluid mb-2" alt="Tehtävä 6, kuva 1">
+                        <p>Sivu on yksinkertainen, värimaailmaltaan tekijänsä mieleinen.</p>
+                        <img src="photos/task6_2.jpg" class="img-fluid mb-2" alt="Tehtävä 6, kuva 2">
+                        <p>Kuhunkin tehtävään on lisätty modaali, joka näyttää aiempien tehtävien ulkoasua muistelun vuoksi.</p>
+                        <img src="photos/task6_3.jpg" class="img-fluid mb-2" alt="Tehtävä 6, kuva 3">
+                        <p>HackMD blogi on upotettu sivuun, josta sen voi lukea helposti. Linkki vie myös tarvittaessa HackMD sivulle, jossa opettaja voi tarjota kommentteja.</p>
+                        <img src="photos/task6_4.jpg" class="img-fluid mb-2" alt="Tehtävä 6, kuva 4">
+                        <img src="photos/task6_5.jpg" class="img-fluid mb-2" alt="Tehtävä 6, kuva 5">
+                        <p>Siisteyden ylläpitämisen vuoksi kuvat on kaikki yhdessä kansiossa, tuotu header-fontti omassaan. Sikäli siisteyttä olisi voinut viedä pidemmälle ja laittaa alikansioihin vielä tehtävän mukaisesti.</p>
+
+                        <img src="photos/task6_6.jpg" class="img-fluid mb-2" alt="Tehtävä 6, kuva 6">
+                        
+                        <p>Runsaiden modaalien vuoksi koodin luettavuus rupesi kärsimään tehtävän edetessä, yksinkertainen kommentti kunkin osion alkuun auttoi kovasti lunttaamaan missä kohdassa mennään, mitä pitäisi seuraavaksi tehdä.</p>
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sulje</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <ul class="mt-3">
+            <li>Mitä tein?
+                <ul>
+                    <li>Tein elämäni ensimmäisen portfolion. Portfolioon nivoutuu Karelian Ammattikorkekoulun Web-ohjelmointi 1 kurssin työt ja niiden läpikäynti. Tehtävänanto korosti asioita joihin tulisi vastata, tyylittelyä mitä pitäisi suosia ja kehote tehdä mahdollisimman yksinkertainen sivusto.</li>
+                </ul>
+            </li> 
+            <li>Miten tein?
+                <ul>
+                    <li>Tein simppelin ja tummansävyisen HTML-sivuston, käyttäen Bootstrap 5.3 tyylittylä. Osan tyylilajista ohitin oman CSS-tiedoston kautta tuodakseni sivustolle enemmän omaa ilmettä ja uniikkia lookkia.
+                        <ul>
+                            <li>Käytetyt kielet: HTML, CSS</li>
+                            <li>Käytetyt ohjelmat: VS Code, Paint, Snipping tool, Notepad++, Google Chrome</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>Miksi teit?
+                <ul>
+                    <li>Tehtävänannon mukaisesti mutta mahdollisimman pitkälti oman persoonani mukaisesti.</li>
+                </ul>
+            </li>
+            <li>Mitä opin?
+                <ul>
+                    <li>Opin simppeleitä tapoja muokata bootstrap elementtejä ja yksinkertaisen joskin jonkin verran sekavan tavan luoda nettisivuja. Tämä on ensimmäinen sivusto jolle olen sisällyttänyt modaaleita ja erinäisiä painikkeita yksinkertaisten tekstilinkkien sijaan.</li>
+                </ul>
+            </li>
+            <li>Mitä jäi vielä oppimatta?
+                <ul>
+                    <li>HTML maailma ei ole koskaan valmis. Myös bootstrapin maailma on laaja ja monipuolinen, enkä saanut tämänkään harjoituksen myötä raapaistua pintaa syvemmälle. Harjoitus ei sisältänyt lainkaan JSONia eikä JavaScritiä, joten näiden osalta harjoitus jäi täydellisesti vajaaksi vielä.</li>
+                </ul>
+            </li>
+            <li>Miten mielestäni onnistuin tässä tehtävässä ja mitä tekisin nyt toisin (jos mitään)?
+                <ul>
+                    <li>Yleisesti olen tyytyväinen kokonaisuuteen, mutta jos tekisin uudelleen, haluaisin ehkä koittaa adaptoida sivun toimivaksi myös mobiililla. Kokeilin oman kotisivupalvelimeni kautta toimivuutta kännykällä, eikä elementit sopineet toisiinsa laisinkaan.</li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-secondary text-white text-center py-3 mt-5">
+        <p>&copy; 2025 Pia Fjäder, DTNS22S osana kurssia DT10033-3003.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

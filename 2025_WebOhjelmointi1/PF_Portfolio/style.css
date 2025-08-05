@@ -1,0 +1,50 @@
+body{
+    color: black !important;
+    font-family: "Garamond", serif; 
+    line-height: 1.4em;
+}
+
+
+#header {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "AR Decode", sans-serif;
+    font-size: 25px;
+}
+
+.modal-content {
+    background-color: #343a40; 
+    color: #f8f9fa; 
+}
+
+.btn-primary {
+    background-color: #6c757d;  
+    border: 1px dashed black;
+}
+
+.btn-primary:hover {
+    background-color: #545b62; 
+    border: 1px solid black;
+}
+
+#footer {
+    position: relative;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    background-color: antiquewhite;
+    height: 25px;
+}
+
+
+header {
+    text-align: center;
+    font-family: "AR Decode", sans-serif !important;
+    font-size: 50px;
+}
+
+@font-face {
+    font-family: "AR Decode";
+    src: url("font/ARDecode.ttf") format("truetype");
+}

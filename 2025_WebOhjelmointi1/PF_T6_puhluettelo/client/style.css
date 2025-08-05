@@ -1,0 +1,128 @@
+body{
+    color: black;
+    font-family: "Garamond", serif; 
+    line-height: 1.4em;
+    background: burlywood !important;
+}
+
+@font-face {
+    font-family: "AR Decode";
+    src: url("fonts/ARDecode.ttf") format("truetype");
+}
+
+#header {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "AR Decode", sans-serif;
+    font-size: 25px;
+}
+
+#nav {
+    height: 40px;
+    background-color: aquamarine;
+    border: 1px dotted black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #nav ul {
+    margin: 0;
+    display: flex;
+  }
+  
+  #nav li {
+    list-style: none;
+    float: left;
+    padding-left: 30px;
+    font-weight: bold;
+  }
+
+
+#main {
+    position: relative;
+    height: 30px;
+    text-align: center;
+    width: 100%;
+    background: #181818;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    padding: 3px;
+    border: 1px dotted black;
+    border-radius: 10px;
+    background-color:aquamarine;
+}
+
+#side {
+    float: right;
+    text-align: center;
+    width: 40%;
+    background: #181818;
+    margin-top: 50px;
+    margin-right: 50px;
+    padding: 7px;
+    border: 1px dashed black;
+    border-radius: 10px;
+    background-color:aquamarine; 
+}
+
+#content{
+    background: azure;
+    width: 800px;
+    height: auto;
+    margin: 30px auto;
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+table{
+    width: 400px;
+    text-align: center;
+    border: 1px dashed;
+}
+
+
+
+input[type="button"],
+input[type="submit"] {
+    background-color:aqua;
+    border-radius: 5px;
+    padding-left: 10px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: green; 
+}
+
+input[type="button"][id="edit"]:hover {
+    background-color:khaki;
+}
+
+input[type="button"][id="remove"]:hover {
+    background-color:brown;
+}
+
+input[type="text"]{
+    border: 2px solid black;
+}
+
+.clr {
+    clear: both;
+}
+
+#footer {
+    position: relative;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    background-color: antiquewhite;
+    height: 25px;
+}
+
